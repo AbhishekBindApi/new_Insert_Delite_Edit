@@ -37,7 +37,7 @@ if (isset($_POST['save_student'])) {
                                     <td class="td"><?php echo $user['email'] ?></td>
                                     <td class="td"><?php echo $user['phone'] ?></td>
                                     <td class="td"><?php echo $user['course'] ?></td>
-                                    <td><a class="btn btn-warning td" href="update.php?update_id=<?php echo $user['id'] ?>">Edit/Update</a></td>
+                                    <td><a class="btn btn-success td" href="update.php?update_id=<?php echo $user['id'] ?>">Edit/Update</a></td>
                                     <td><a class="btn btn-danger td" href="delete.php?delete_id=<?php echo $user['id'] ?>">Delete</a></td>
                                 </tr>
                             <?php } ?>

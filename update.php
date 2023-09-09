@@ -18,7 +18,6 @@ $data = $userController->getupdateUser($id);
                     </h3>
                 </div>
                 <div class="card-body">
-
                     <form method="post">
                         <div class="mb-3">
                             <label>Full Name</label>
